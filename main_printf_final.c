@@ -386,8 +386,6 @@ int	main()
 	y += printf("%.3f\n", 484187171.1235);
 	x += ft_printf("%.3f\n", 484187171.1235);
 	display_return(x, y, "MODIFIER");
-	g += (ft_printf("%-.5f %LF\n", 5.00, (long double)5.65));
-	h +=    (printf("%-.5f %LF\n", 5.00, (long double)5.65));
 	printf("\n");
 	display_return(g, h, "MODIFIER");
 	printf("\n");
